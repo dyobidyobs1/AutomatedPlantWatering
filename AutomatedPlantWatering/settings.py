@@ -84,7 +84,7 @@ DATABASES = {
 
 import dj_database_url
 
-DATABASES['default'] = dj_database_url.parse('postgres://pncyomhunavirb:febd8c7f2770de956843c6f3a8e6405b68772f02c0a7880518de87d6e82837a3@ec2-3-234-204-26.compute-1.amazonaws.com:5432/d21j1dkd2dftmg', conn_max_age=600)
+DATABASES['default'] = dj_database_url.parse('postgres://iopdhhmbuagxif:3e8bb26d8885230275115c0f1187fb3cf40150ba0a659dccbc330a38a4aef07a@ec2-3-210-173-88.compute-1.amazonaws.com:5432/d44a5lr75hn4m', conn_max_age=600)
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
